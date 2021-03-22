@@ -18,6 +18,9 @@
 </head>
 
 <body>
+    <h1 class="center">
+        This list contains the site which are either live or down
+    </h1>
 <table class='table'>
         <thead>
             <th>
@@ -32,7 +35,7 @@
         
         <?php
                 $URList = 'https://votepair.org, https://getautomatix.com, https://statesidephilly.com, https://stereohyped.com';
-                $up = "UP";
+                $up = "Live";
                 $down = "Down";
                 $URLs = explode(", " ,$URList);
                 foreach ($URLs as $URL) {
